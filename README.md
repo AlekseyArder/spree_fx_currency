@@ -3,7 +3,7 @@ SpreeFxCurrency
 [![Build Status](https://travis-ci.org/itbeaver/spree_fx_currency.svg?branch=3-0-stable)](https://travis-ci.org/itbeaver/spree_fx_currency)
 [![Code Climate](https://codeclimate.com/github/itbeaver/spree_fx_currency/badges/gpa.svg)](https://codeclimate.com/github/itbeaver/spree_fx_currency)
 
-Spree currency converter. Use foreign exchange rates (relative to main currency) mannualy entered in admin area.
+Spree currency converter. Use foreign exchange rates (relative to main currency) manually entered in admin area.
 
 Extends [spree-contrib/spree_multi_currency](https://github.com/spree-contrib/spree_multi_currency/).
 
@@ -34,7 +34,7 @@ FX Rates can be fetched from http://fixer.io/ (JSON API for foreign exchange rat
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_fx_currency', github: 'itbeaver/spree_fx_currency', branch: '3-0-stable'
+  gem 'spree_fx_currency', github: 'AlekseyArder/spree_fx_currency'
   ```
 
   The `branch` option is important: it must match the version of Spree you're using.
@@ -50,9 +50,7 @@ FX Rates can be fetched from http://fixer.io/ (JSON API for foreign exchange rat
   bundle exec rails g spree_fx_currency:install
   ```
 
-4. Restart your server
-
-  If your server was running, restart it so that it can find the assets properly.
+4. Restart server
 
 ## Testing
 
