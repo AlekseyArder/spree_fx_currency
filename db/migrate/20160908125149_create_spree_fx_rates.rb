@@ -1,4 +1,4 @@
-class CreateSpreeFxRates < ActiveRecord::Migration
+class CreateSpreeFxRates < ActiveRecord::Migration[5.1]
   def change
     create_table :spree_fx_rates do |t|
       t.string :from_currency
